@@ -15,7 +15,7 @@ const CLIENT_PORT =
 const app = express();
 app.use(
     cors({
-        origin: [`http://localhost:${CLIENT_PORT}`, "http://192.168.56.102:{CLIENT_PORT}"],
+        origin: [`http://localhost:${CLIENT_PORT}`, `http://192.168.56.102:${CLIENT_PORT}`],
         methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     })
 );
