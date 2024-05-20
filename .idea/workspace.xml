@@ -31,6 +31,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Jest.Database Connection.executor": "Run",
+    "Jest.Test the product endpoints.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/main/devOps/restAPI/dofd-05-VaflyaArtek",
@@ -43,7 +44,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.Test the product endpoints">
     <configuration name="Database Connection" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -56,8 +57,21 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Test the product endpoints" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/routes/routes.test.js" />
+      <test-names>
+        <test-name value="Test the product endpoints" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Test the product endpoints" />
         <item itemvalue="Jest.Database Connection" />
       </list>
     </recent_temporary>
@@ -72,7 +86,7 @@
       <updated>1715719907819</updated>
       <workItem from="1715719908833" duration="4479000" />
       <workItem from="1716218421621" duration="213000" />
-      <workItem from="1716218643623" duration="3257000" />
+      <workItem from="1716218643623" duration="4815000" />
     </task>
     <servers />
   </component>
