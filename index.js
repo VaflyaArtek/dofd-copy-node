@@ -130,5 +130,3 @@ app.delete("/products/:id", (req, res) => {
         });
     });
 });
-
-module.exports = {server, db};
