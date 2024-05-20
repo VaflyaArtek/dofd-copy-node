@@ -4,20 +4,20 @@ on:
   push:
     branches: ["main"]
 
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Chekcout repository
-        uses: actions/chekout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
       
-      - name: Set up Nodejs v16
+      - name: Set up Node.js v16
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: npm
+          cache: 'npm'
           
       - name: Install dependencies
         run: npm install
