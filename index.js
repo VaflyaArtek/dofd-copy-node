@@ -38,7 +38,7 @@ const db = new sqlite3.Database("softserve.db", (err) => {
 // CREATE
 app.post("/products", (req, res) => {
     const {name, price} = req.body;
-    if (typeof name === undefined || price === undefined) {
+    if (name === undefined || price === undefined) {
         res.status(400).json({error: "Invalid data format"});
         return;
     }
